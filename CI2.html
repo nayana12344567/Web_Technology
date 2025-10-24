@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Table Headers</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+  }
+  h1 {
+    color: darkblue;
+  }
+  p {
+    color: darkblue;
+  }
+  table {
+    margin: auto;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid white;
+    padding: 15px;
+    text-align: center;
+  }
+  th {
+    background-color: pink;
+  }
+  td {
+    background-color: lightblue;
+  }
+</style>
+</head>
+<body>
+
+<h1>Table Headers</h1>
+<p>Use the th element to define the table header</p>
+
+<table>
+  <tr>
+    <th colspan="3">Student Details</th>
+  </tr>
+  <tr>
+    <th rowspan="2">Name and USN</th>
+    <td>Nikitha</td>
+    <td>Nayana</td>
+  </tr>
+  <tr>
+    <td>4mw23cs085</td>
+    <td>4mw23cs080</td>
+  </tr>
+  <tr>
+    <th>Dept</th>
+    <td colspan="2">CSE</td>
+  </tr>
+</table>
+
+</body>
+</html>
